@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.page {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    &__text {
+        text-align: center;
+        p {
+            margin: 3% 0;
+            font-family: 'Rubik', sans-serif;
+        }
+    }
+}
+
+#svg {
+    height: 20vh;
+    display: flex;
+    align-self: flex-end;
+    z-index: 0;
+}
+
