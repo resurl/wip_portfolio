@@ -19,13 +19,18 @@ body {
 .text {
   text-align: center;
   width: 60vw;
+  z-index: 1;
 }
 
 .text p {
   margin: 2% 0;
-  font-size: 35px;
+  font-size: 2.25em;
   font-family: 'Rubik', sans-serif;
   color: #3f3d55;
+}
+
+.links {
+  z-index: 2;
 }
 
 .links a {
