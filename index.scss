@@ -22,8 +22,14 @@ body {
 
 .links {
     z-index: 2;
+
     a {
         color: #009688;
+
+    }
+    
+    a:hover {
+        color: #0a6159;
     }
 }
 
@@ -40,4 +46,6 @@ body {
 ion-icon {
     font-size: 64px;
 }
+
+
 

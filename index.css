@@ -37,6 +37,10 @@ body {
   color: #009688;
 }
 
+.links a:hover {
+  color: #0a6159;
+}
+
 #svg {
   position: absolute;
   bottom: 5%;
